@@ -37,3 +37,11 @@ win:RC_ICONS += $$PWD\appIcon.ico
 ios {
 QMAKE_INFO_PLIST = ios/Info.plist
 }
+
+target.path = $$PREFIX/bin
+desktop.files = xcvario.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons/hicolor/apps/
+icons.files = xcvario.png
+
+INSTALLS += target desktop icons

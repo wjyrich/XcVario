@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=xcvario
+Name=xcvario
+Name[zh_CN]=xcvario
+Icon=xcvario
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=xcvario
+Version=1.0
